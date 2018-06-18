@@ -1,0 +1,111 @@
+body{
+    font-family: 'Lato', sans-serif;
+}
+.inputArea {
+    margin:3px;
+}
+.headerRow{
+    background-color: lightgrey;
+}
+.locationButton{
+    margin-top: 3px;
+    margin-bottom: 3px;
+}
+.searchButton{
+    margin-top: 3px;
+    margin-bottom: 3px;
+}
+.languageButton{
+    margin-top: 3px;
+    margin-bottom: 3px;
+    margin-right: 5px;
+}
+.outputRow{
+    background-color: whitesmoke;
+    
+}
+#currentDetailsWrapper{
+    width: 100%;
+    line-height: 40px;
+    padding: 0 20px;
+    background-color: rgba(238,238,238,.35);
+    overflow: hidden;
+}
+#currentDetails{
+    position: relative;
+    text-align: center;
+    left: -10px;
+    white-space: nowrap;
+    font-size: 14px;
+    margin: 0 auto;
+    max-width: 750px;
+}
+#currentDetails > div{
+    display: inline-block;
+    text-align: center;
+    margin: 0 10px;
+    
+}
+#currentDetails .label{
+    display: inline-block;
+    text-align: right;
+    font-weight: 700;
+    margin: 0 4px;
+}
+#currentDetails .val{
+    display: inline-block;
+    text-align: left;
+    font-weight: 300;
+}
+#title{
+    text-align: center;
+    font-size: 32px;
+    font-weight: 400;
+    margin: 12px 15px;
+}
+#title .currently{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#title .currently .desc.swap {
+    font-weight: 600;
+    text-align: left;
+}
+#title .currently .desc, body.forecast #title .next {
+    position: relative;
+    top: 7px;
+    line-height: 1.3em;
+    margin-bottom: 15px;
+}
+#title .skycon {
+    display: inline-block;
+    margin: 3px 10px 3px 6px;
+}
+#title .skycon.swip {
+    width: 60px;
+    height: 60px;
+}
+#title span {
+    display: inline-block;
+}
+#title .next.swap {
+    position: relative;
+    top: 0;
+    display: block;
+    font-size: 28px;
+    font-weight: 300;
+    margin-bottom: 6px;
+}
+#title span.summary-high-low {
+    display: flex;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 1.5;
+}
+#title span.summary-high-low > span {
+    margin: 0 3px;
+}
+#title span.summary-high-low .high-low-label {
+    font-weight: 600;
+}
